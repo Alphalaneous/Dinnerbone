@@ -1,5 +1,5 @@
 {
-	"geode": "4.3.1",
+	"geode": "4.8.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,7 +8,7 @@
 	},
 	"id": "alphalaneous.dinnerbone",
 	"name": "Dinnerbone",
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"developer": "Alphalaneous",
 	"description": "Upside down",
 	"tags": [
@@ -25,6 +25,83 @@
 			"default": true,
 			"name": "Enabled",
 			"description": "Enable the flip"
+		},
+		"cube-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Cube",
+			"description": "Dinnerboned the Cube"
+		},
+		"ship-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Ship",
+			"description": "Dinnerboned the Ship"
+		},
+		"ufo-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "UFO",
+			"description": "Dinnerboned the UFO"
+		},
+		"ball-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Ball",
+			"description": "Dinnerboned the Ball"
+		},
+		"wave-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Wave",
+			"description": "Dinnerboned the Wave"
+		},
+		"robot-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Robot",
+			"description": "Dinnerboned the Robot"
+		},
+		"spider-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Spider",
+			"description": "Dinnerboned the Spider"
+		},
+		"swing-enable": {
+			"type": "bool",
+			"default": true,
+			"name": "Swing",
+			"description": "Dinnerboned the Swing"
+		},
+		"horizontal-mirror": {
+			"type": "bool",
+			"default": false,
+			"name": "Horizontal Mirror",
+			"description": "Mirror the icon Horizontally"
+		},
+		"vertical-mirror": {
+			"type": "bool",
+			"default": true,
+			"name": "Vertical Mirror",
+			"description": "Mirror the icon Vertically"
+		},
+		"rotation-modifier": {
+			"type": "float",
+			"default": -1,
+			"name": "Rotation Modifier",
+			"description": "How much the rotation is changed",
+			"min": -100,
+			"max": 100,
+			"control": {
+				"arrows": true,
+				"arrow-step": 1,
+				"big-arrows": true,
+				"big-arrow-step": 5,
+				"slider": true,
+				"slider-step": 1,
+				"input": true
+			}
 		}
 	}
 }
