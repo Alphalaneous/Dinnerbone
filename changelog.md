@@ -1,3 +1,8 @@
+# 1.0.3
+- Options per gamemode
+- Toggling flip direction
+- Rotation modifier controls
+
 # 1.0.2
 - iOS support
 
