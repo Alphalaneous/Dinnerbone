@@ -83,7 +83,7 @@ class $modify(MyPlayerObject, PlayerObject) {
 		}
 
 		if (settings.m_shouldMirrorHorizontally) {
-			m_mainLayer->setScaleX(mod);
+			m_mainLayer->setScaleX(-1);
 		}
 
 		m_mainLayer->setRotation(-getRotation() + (settings.m_rotationModifier * getRotation()) + rot);

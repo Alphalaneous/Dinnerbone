@@ -1,3 +1,6 @@
+# 1.0.4
+- Fix an oopsie when horizontal flip is enabled and you are upside down
+
 # 1.0.3
 - Options per gamemode
 - Toggling flip direction
