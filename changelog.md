@@ -1,3 +1,6 @@
+# 1.0.5
+- 2.2081 Support
+
 # 1.0.4
 - Fix an oopsie when horizontal flip is enabled and you are upside down
 

@@ -1,3 +1,4 @@
+#include "Geode/loader/SettingV3.hpp"
 #include <Geode/Geode.hpp>
 #include <Geode/modify/PlayerObject.hpp>
 
@@ -42,7 +43,8 @@ struct Settings {
 
 $execute {
 	Settings::get().loadSettings();
-	listenForAllSettingChanges([](std::shared_ptr<SettingV3>) {
+	
+	listenForAllSettingChanges([](std::string_view key, std::shared_ptr<SettingV3> setting) {
 		Settings::get().loadSettings();
 	});
 }
